@@ -2,7 +2,7 @@
 
 Base repo: https://github.com/OpenTalker/SadTalker
 
-Main challenges introduced in this repo as opposed to the original:
+Main challenges introduced in this repo as opposed to the original (see file `api.py`):
 - Create a `POST /predict` API using Flask to make predictions
 - The API now handles images/audio when running predictions instead of loading those from the filesystem
 - Refactor the code the separate the model initialization from model prediction and also to separate the config
